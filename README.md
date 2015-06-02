@@ -1,6 +1,4 @@
-Github Official
-===============
+Github Site
+===========
 
-My github site :p
-
-www.paulkr.com
+Redirects to http://paulkr.com
