@@ -13,7 +13,7 @@ www.PaulKr.com
 		<link rel="stylesheet" type="text/css" href="style/index.css">
 		<link rel="stylesheet" type="text/css" href="style/prism.css">
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="lib/overHang.min.js"></script>
+		<script type="text/javascript" src="../lib/overHang.min.js"></script>
 		<script type="text/javascript" src="js/prism.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 	</head>
@@ -50,10 +50,12 @@ www.PaulKr.com
 					<h4>Notifications</h4>
 					<p>To display a notification, the activity needed is "notification".</p>
 
-<pre class="basicUsage"><code class="language-javascript">
+<pre class="basicUsage" style="width:290px"><code class="language-javascript">
 $("body").overHang({
 	// The activity
 	activity : "notification",
+	// Use default duration (1.5)
+	// duration : 1.5,
 	// Custom message
 	message : "Hello World!",
 	// Custom color or theme
